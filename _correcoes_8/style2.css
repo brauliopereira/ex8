@@ -1,0 +1,41 @@
+:root{
+    --tom: (red);
+    --tom2:(rgb(219, 219, 59)); 
+    --corfundo: (white);
+    --fontbody: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: var(--corfundo);
+    font-family: var(--fontbody);
+}
+
+main{
+    background-color: var(--tom2);
+    max-width: 800px;
+    min-width: 550px;
+}
+
+#relativa{
+    background-color: blue;
+    position: relative;
+    padding: 30px 50px 30px 30px;
+    margin-bottom: 20px;
+    height: 540px;
+    width: 100%;
+}
+
+#absoluta{
+    background-color: blue;
+    position: absolute;    
+    left: 2%;
+    top: 2%;
+    width: 96%;
+    height: 96%;
+}
+
+
+ul{
+    columns: 2;
+    list-style: '\1F383';
+}
